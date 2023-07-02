@@ -41,8 +41,8 @@ const Project = g
 
 export default config({
   schema: g,
-  auth: {
-    providers: [jwt],
-    rules: (rules) => rules.private(),
-  },
+  // auth: {
+  //   providers: [jwt],
+  //   rules: (rules) => rules.private(),
+  // },
 })
